@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rólunk — Premium Gyanta</title>
+
+<style>
+:root{
+  --bg:#0f172a;
+  --header:#111827;
+  --card:#1e293b;
+  --text:#f1f5f9;
+  --muted:#94a3b8;
+  --accent:#22c55e;
+  --max:1100px;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+
+header{
+  background:var(--header);
+  padding:18px 22px;
+}
+
+.header-inner{
+  max-width:var(--max);
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  width:150px;
+  height:auto;
+  display:block;
+}
+
+nav a{
+  margin-left:20px;
+  color:var(--muted);
+  text-decoration:none;
+  font-weight:600;
+}
+
+nav a:hover{
+  color:white;
+}
+
+.lang{
+  margin-left:18px;
+  display:inline-flex;
+  gap:8px;
+  align-items:center;
+}
+
+.lang a{
+  border:1px solid rgba(148,163,184,.35);
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:12px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--muted);
+  margin-left:0;
+}
+
+.lang a.active{
+  border-color:rgba(34,197,94,.6);
+  color:var(--text);
+}
+
+.container{
+  max-width:var(--max);
+  margin:40px auto;
+  padding:0 22px;
+}
+
+.card{
+  background:var(--card);
+  padding:26px;
+  border-radius:12px;
+}
+
+.muted{
+  color:var(--muted);
+}
+
+h1{
+  margin:0 0 10px;
+}
+
+p{
+  margin:0 0 12px;
+}
+
+footer{
+  margin-top:40px;
+  padding:20px;
+  background:var(--header);
+  color:var(--muted);
+  text-align:center;
+}
+
+@media(max-width:900px){
+
+  .header-inner{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  nav a{
+    margin-left:0;
+    margin-right:16px;
+  }
+
+  .lang{
+    margin-left:0;
+  }
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="header-inner">
+
+<img src="../logo.png" alt="Premium Gyanta logó" class="logo">
+
+<nav>
+<a href="index.html">Főoldal</a>
+<a href="about.html">Rólunk</a>
+<a href="services.html">Szolgáltatások</a>
+<a href="projects.html">Referenciák</a>
+<a href="contact.html">Kapcsolat</a>
+
+<span class="lang">
+<a href="../about.html" title="English">EN</a>
+<a class="active" href="about.html" title="Magyar">HU</a>
+</span>
+
+</nav>
+
+</div>
+</header>
+
+<main class="container">
+
+<section class="card">
+
+<h1>Rólunk</h1>
+
+<p class="muted">
+A Premium Gyanta epoxi és műgyanta felületek kivitelezésével foglalkozó vállalkozás, amely modern, tartós és esztétikus megoldásokat kínál otthonok és üzleti terek számára.
+</p>
+
+<p>
+Szakterületünk az epoxi padlóburkolatok, garázspadlók, gyanta munkapultok, splashback felületek és egyedi dekorációs gyanta megoldások készítése. Minden projektet az adott tér igényeihez és az ügyfél elképzeléseihez igazítva valósítunk meg.
+</p>
+
+<p>
+Célunk, hogy olyan felületeket hozzunk létre, amelyek egyszerre látványosak, tartósak és könnyen karbantarthatók. Az epoxi bevonatok különösen ellenállóak a kopással, nedvességgel és vegyi hatásokkal szemben, ezért ideálisak lakóterekben, garázsokban és kereskedelmi környezetben is.
+</p>
+
+<p>
+Munkánk során nagy hangsúlyt fektetünk a részletekre, a precíz kivitelezésre és a minőségi alapanyagokra. Hiszünk abban, hogy a jól elkészített gyanta felület nemcsak praktikus, hanem egyedi design elem is lehet bármely térben.
+</p>
+
+</section>
+
+</main>
+
+<footer>
+© 2026 Premium Gyanta
+</footer>
+
+</body>
+</html>
